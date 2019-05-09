@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB43AC852282CC760082FACE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43AC842282CC760082FACE /* AppDelegate.m */; };
+		AB43AC882282CC760082FACE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43AC872282CC760082FACE /* ViewController.m */; };
+		AB43AC8B2282CC760082FACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB43AC892282CC760082FACE /* Main.storyboard */; };
+		AB43AC8D2282CC780082FACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB43AC8C2282CC780082FACE /* Assets.xcassets */; };
+		AB43AC902282CC780082FACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB43AC8E2282CC780082FACE /* LaunchScreen.storyboard */; };
+		AB43AC932282CC780082FACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43AC922282CC780082FACE /* main.m */; };
+		AB43AC9D2282CC780082FACE /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43AC9C2282CC780082FACE /* __Tests.m */; };
+		AB43ACA82282CC780082FACE /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43ACA72282CC780082FACE /* __UITests.m */; };
+		AB43ACB72282CC850082FACE /* XLRewardLuckView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43ACB52282CC850082FACE /* XLRewardLuckView.m */; };
+		AB43ACBA2282CC960082FACE /* XLButtonImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43ACB82282CC960082FACE /* XLButtonImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB43AC992282CC780082FACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB43AC782282CC760082FACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB43AC7F2282CC760082FACE;
+			remoteInfo = "抽奖";
+		};
+		AB43ACA42282CC780082FACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB43AC782282CC760082FACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB43AC7F2282CC760082FACE;
+			remoteInfo = "抽奖";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB43AC802282CC760082FACE /* 抽奖.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "抽奖.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB43AC832282CC760082FACE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB43AC842282CC760082FACE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB43AC862282CC760082FACE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB43AC872282CC760082FACE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB43AC8A2282CC760082FACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB43AC8C2282CC780082FACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB43AC8F2282CC780082FACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB43AC912282CC780082FACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB43AC922282CC780082FACE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB43AC982282CC780082FACE /* 抽奖Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "抽奖Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB43AC9C2282CC780082FACE /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		AB43AC9E2282CC780082FACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB43ACA32282CC780082FACE /* 抽奖UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "抽奖UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB43ACA72282CC780082FACE /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
+		AB43ACA92282CC780082FACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB43ACB52282CC850082FACE /* XLRewardLuckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLRewardLuckView.m; sourceTree = "<group>"; };
+		AB43ACB62282CC850082FACE /* XLRewardLuckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLRewardLuckView.h; sourceTree = "<group>"; };
+		AB43ACB82282CC960082FACE /* XLButtonImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLButtonImageView.m; sourceTree = "<group>"; };
+		AB43ACB92282CC960082FACE /* XLButtonImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLButtonImageView.h; sourceTree = "<group>"; };
+		AB43ACBB2282CEAC0082FACE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB43AC7D2282CC760082FACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB43AC952282CC780082FACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB43ACA02282CC780082FACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB43AC772282CC760082FACE = {
+			isa = PBXGroup;
+			children = (
+				AB43AC822282CC760082FACE /* 抽奖 */,
+				AB43AC9B2282CC780082FACE /* 抽奖Tests */,
+				AB43ACA62282CC780082FACE /* 抽奖UITests */,
+				AB43AC812282CC760082FACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB43AC812282CC760082FACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB43AC802282CC760082FACE /* 抽奖.app */,
+				AB43AC982282CC780082FACE /* 抽奖Tests.xctest */,
+				AB43ACA32282CC780082FACE /* 抽奖UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB43AC822282CC760082FACE /* 抽奖 */ = {
+			isa = PBXGroup;
+			children = (
+				AB43AC832282CC760082FACE /* AppDelegate.h */,
+				AB43AC842282CC760082FACE /* AppDelegate.m */,
+				AB43AC862282CC760082FACE /* ViewController.h */,
+				AB43AC872282CC760082FACE /* ViewController.m */,
+				AB43ACB62282CC850082FACE /* XLRewardLuckView.h */,
+				AB43ACB52282CC850082FACE /* XLRewardLuckView.m */,
+				AB43ACB92282CC960082FACE /* XLButtonImageView.h */,
+				AB43ACB82282CC960082FACE /* XLButtonImageView.m */,
+				AB43ACBB2282CEAC0082FACE /* PrefixHeader.pch */,
+				AB43AC892282CC760082FACE /* Main.storyboard */,
+				AB43AC8C2282CC780082FACE /* Assets.xcassets */,
+				AB43AC8E2282CC780082FACE /* LaunchScreen.storyboard */,
+				AB43AC912282CC780082FACE /* Info.plist */,
+				AB43AC922282CC780082FACE /* main.m */,
+			);
+			path = "抽奖";
+			sourceTree = "<group>";
+		};
+		AB43AC9B2282CC780082FACE /* 抽奖Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AB43AC9C2282CC780082FACE /* __Tests.m */,
+				AB43AC9E2282CC780082FACE /* Info.plist */,
+			);
+			path = "抽奖Tests";
+			sourceTree = "<group>";
+		};
+		AB43ACA62282CC780082FACE /* 抽奖UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB43ACA72282CC780082FACE /* __UITests.m */,
+				AB43ACA92282CC780082FACE /* Info.plist */,
+			);
+			path = "抽奖UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB43AC7F2282CC760082FACE /* 抽奖 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB43ACAC2282CC780082FACE /* Build configuration list for PBXNativeTarget "抽奖" */;
+			buildPhases = (
+				AB43AC7C2282CC760082FACE /* Sources */,
+				AB43AC7D2282CC760082FACE /* Frameworks */,
+				AB43AC7E2282CC760082FACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "抽奖";
+			productName = "抽奖";
+			productReference = AB43AC802282CC760082FACE /* 抽奖.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB43AC972282CC780082FACE /* 抽奖Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB43ACAF2282CC780082FACE /* Build configuration list for PBXNativeTarget "抽奖Tests" */;
+			buildPhases = (
+				AB43AC942282CC780082FACE /* Sources */,
+				AB43AC952282CC780082FACE /* Frameworks */,
+				AB43AC962282CC780082FACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB43AC9A2282CC780082FACE /* PBXTargetDependency */,
+			);
+			name = "抽奖Tests";
+			productName = "抽奖Tests";
+			productReference = AB43AC982282CC780082FACE /* 抽奖Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB43ACA22282CC780082FACE /* 抽奖UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB43ACB22282CC780082FACE /* Build configuration list for PBXNativeTarget "抽奖UITests" */;
+			buildPhases = (
+				AB43AC9F2282CC780082FACE /* Sources */,
+				AB43ACA02282CC780082FACE /* Frameworks */,
+				AB43ACA12282CC780082FACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB43ACA52282CC780082FACE /* PBXTargetDependency */,
+			);
+			name = "抽奖UITests";
+			productName = "抽奖UITests";
+			productReference = AB43ACA32282CC780082FACE /* 抽奖UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB43AC782282CC760082FACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "iOS ";
+				TargetAttributes = {
+					AB43AC7F2282CC760082FACE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AB43AC972282CC780082FACE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AB43AC7F2282CC760082FACE;
+					};
+					AB43ACA22282CC780082FACE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AB43AC7F2282CC760082FACE;
+					};
+				};
+			};
+			buildConfigurationList = AB43AC7B2282CC760082FACE /* Build configuration list for PBXProject "抽奖" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB43AC772282CC760082FACE;
+			productRefGroup = AB43AC812282CC760082FACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB43AC7F2282CC760082FACE /* 抽奖 */,
+				AB43AC972282CC780082FACE /* 抽奖Tests */,
+				AB43ACA22282CC780082FACE /* 抽奖UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB43AC7E2282CC760082FACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB43AC902282CC780082FACE /* LaunchScreen.storyboard in Resources */,
+				AB43AC8D2282CC780082FACE /* Assets.xcassets in Resources */,
+				AB43AC8B2282CC760082FACE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB43AC962282CC780082FACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB43ACA12282CC780082FACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB43AC7C2282CC760082FACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB43ACBA2282CC960082FACE /* XLButtonImageView.m in Sources */,
+				AB43ACB72282CC850082FACE /* XLRewardLuckView.m in Sources */,
+				AB43AC882282CC760082FACE /* ViewController.m in Sources */,
+				AB43AC932282CC780082FACE /* main.m in Sources */,
+				AB43AC852282CC760082FACE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB43AC942282CC780082FACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB43AC9D2282CC780082FACE /* __Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB43AC9F2282CC780082FACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB43ACA82282CC780082FACE /* __UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB43AC9A2282CC780082FACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB43AC7F2282CC760082FACE /* 抽奖 */;
+			targetProxy = AB43AC992282CC780082FACE /* PBXContainerItemProxy */;
+		};
+		AB43ACA52282CC780082FACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB43AC7F2282CC760082FACE /* 抽奖 */;
+			targetProxy = AB43ACA42282CC780082FACE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB43AC892282CC760082FACE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB43AC8A2282CC760082FACE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB43AC8E2282CC780082FACE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB43AC8F2282CC780082FACE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB43ACAA2282CC780082FACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB43ACAB2282CC780082FACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB43ACAD2282CC780082FACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/抽奖/PrefixHeader.pch";
+				INFOPLIST_FILE = "抽奖/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.renxin.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB43ACAE2282CC780082FACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/抽奖/PrefixHeader.pch";
+				INFOPLIST_FILE = "抽奖/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.renxin.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB43ACB02282CC780082FACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "抽奖Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.renxin.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/抽奖.app/抽奖";
+			};
+			name = Debug;
+		};
+		AB43ACB12282CC780082FACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "抽奖Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.renxin.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/抽奖.app/抽奖";
+			};
+			name = Release;
+		};
+		AB43ACB32282CC780082FACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "抽奖UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.renxin.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "抽奖";
+			};
+			name = Debug;
+		};
+		AB43ACB42282CC780082FACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "抽奖UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.renxin.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "抽奖";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB43AC7B2282CC760082FACE /* Build configuration list for PBXProject "抽奖" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB43ACAA2282CC780082FACE /* Debug */,
+				AB43ACAB2282CC780082FACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB43ACAC2282CC780082FACE /* Build configuration list for PBXNativeTarget "抽奖" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB43ACAD2282CC780082FACE /* Debug */,
+				AB43ACAE2282CC780082FACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB43ACAF2282CC780082FACE /* Build configuration list for PBXNativeTarget "抽奖Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB43ACB02282CC780082FACE /* Debug */,
+				AB43ACB12282CC780082FACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB43ACB22282CC780082FACE /* Build configuration list for PBXNativeTarget "抽奖UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB43ACB32282CC780082FACE /* Debug */,
+				AB43ACB42282CC780082FACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB43AC782282CC760082FACE /* Project object */;
+}
